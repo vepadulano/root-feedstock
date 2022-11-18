@@ -59,6 +59,7 @@ if [ -z "${DOCKER_IMAGE}" ]; then
         DOCKER_IMAGE="$(cat "${FEEDSTOCK_ROOT}/.ci_support/${CONFIG}.yaml" | shyaml get-value docker_image.0 quay.io/condaforge/linux-anvil-comp7 )"
     fi
 fi
+DOCKER_IMAGE=quay.io/condaforge/linux-anvil-cos7-x86_64@sha256:673aa8083428c00b71e2d20133361c569f371bb8a2c0973c64ea4ecb35e52e0a
 
 mkdir -p "$ARTIFACTS"
 DONE_CANARY="$ARTIFACTS/conda-forge-build-done-${CONFIG}"
