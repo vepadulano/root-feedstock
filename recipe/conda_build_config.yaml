@@ -10,3 +10,5 @@ c_compiler_version:
 cxx_compiler_version:
   - 18 # [osx]
 
+channel_sources:
+  - https://repo.prefix.dev/root, conda-forge
