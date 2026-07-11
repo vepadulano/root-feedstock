@@ -1,4 +1,4 @@
-azure:
+workflow_settings:
   free_disk_space: true
   store_build_artifacts: true
 bot:
