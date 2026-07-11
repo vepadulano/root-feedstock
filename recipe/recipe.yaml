@@ -278,6 +278,11 @@ outputs:
     requirements:
       run_exports:
         - root_cxx_standard ==${{ root_cxx_std }}
+    tests:
+      # Marker package: it only carries the C++ standard as a version pin,
+      # so installing it cleanly is the only thing to check.
+      - script:
+          - exit 0
 
 about:
   license: LGPL-2.1-only
