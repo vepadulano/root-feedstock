@@ -62,6 +62,8 @@ pin_run_as_build:
   python:
     min_pin: x.x
     max_pin: x.x
+pythia8:
+- '8.312'
 python:
 - 3.13.* *_cp313
 root_cxx_std:
@@ -74,8 +76,6 @@ tbb:
 - '2023'
 tbb_devel:
 - '2023'
-xrootd:
-- '5'
 xxhash:
 - 0.8.3
 zeromq:
