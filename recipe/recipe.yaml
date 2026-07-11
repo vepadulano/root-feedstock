@@ -40,6 +40,7 @@ source:
     - patches/0013-fix-Set-CXX_VISIBILITY_PRESET-hidden-for-ClingUtils.patch
     - patches/0014-build-Use-correct-CMake-syntax-to-check-for-variable.patch
     - patches/0015-Avoid-try_run-when-cross-compiling.patch
+    - patches/0016-cling-Anchor-the-interpreter-s-clang-driver-on-ROOTS.patch
 build:
   number: ${{ build_number }}
   skip:
