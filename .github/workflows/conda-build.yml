@@ -29,7 +29,7 @@ jobs:
             UPLOAD_PACKAGES: True
             build_workspace_dir: build_artifacts
             docker_run_args: 
-            free_disk_space: True
+            free_disk_space: max
             os: ubuntu
             pagefile_size: 0
             resize_partitions: False
@@ -42,7 +42,7 @@ jobs:
             UPLOAD_PACKAGES: True
             build_workspace_dir: build_artifacts
             docker_run_args: 
-            free_disk_space: True
+            free_disk_space: max
             os: ubuntu
             pagefile_size: 0
             resize_partitions: False
@@ -55,7 +55,7 @@ jobs:
             UPLOAD_PACKAGES: True
             build_workspace_dir: build_artifacts
             docker_run_args: 
-            free_disk_space: True
+            free_disk_space: max
             os: ubuntu
             pagefile_size: 0
             resize_partitions: False
@@ -68,7 +68,7 @@ jobs:
             UPLOAD_PACKAGES: True
             build_workspace_dir: build_artifacts
             docker_run_args: 
-            free_disk_space: True
+            free_disk_space: max
             os: ubuntu
             pagefile_size: 0
             resize_partitions: False
@@ -81,7 +81,7 @@ jobs:
             UPLOAD_PACKAGES: True
             build_workspace_dir: build_artifacts
             docker_run_args: 
-            free_disk_space: True
+            free_disk_space: max
             os: ubuntu
             pagefile_size: 0
             resize_partitions: False
@@ -94,7 +94,7 @@ jobs:
             UPLOAD_PACKAGES: True
             build_workspace_dir: build_artifacts
             docker_run_args: 
-            free_disk_space: True
+            free_disk_space: max
             os: ubuntu
             pagefile_size: 0
             resize_partitions: False
@@ -107,7 +107,7 @@ jobs:
             UPLOAD_PACKAGES: True
             build_workspace_dir: build_artifacts
             docker_run_args: 
-            free_disk_space: True
+            free_disk_space: max
             os: ubuntu
             pagefile_size: 0
             resize_partitions: False
@@ -120,7 +120,7 @@ jobs:
             UPLOAD_PACKAGES: True
             build_workspace_dir: build_artifacts
             docker_run_args: 
-            free_disk_space: True
+            free_disk_space: max
             os: ubuntu
             pagefile_size: 0
             resize_partitions: False
@@ -133,7 +133,7 @@ jobs:
             UPLOAD_PACKAGES: True
             build_workspace_dir: build_artifacts
             docker_run_args: 
-            free_disk_space: True
+            free_disk_space: max
             os: ubuntu
             pagefile_size: 0
             resize_partitions: False
@@ -146,7 +146,7 @@ jobs:
             UPLOAD_PACKAGES: True
             build_workspace_dir: build_artifacts
             docker_run_args: 
-            free_disk_space: True
+            free_disk_space: max
             os: ubuntu
             pagefile_size: 0
             resize_partitions: False
@@ -159,7 +159,7 @@ jobs:
             UPLOAD_PACKAGES: True
             build_workspace_dir: build_artifacts
             docker_run_args: 
-            free_disk_space: True
+            free_disk_space: max
             os: ubuntu
             pagefile_size: 0
             resize_partitions: False
@@ -172,7 +172,7 @@ jobs:
             UPLOAD_PACKAGES: True
             build_workspace_dir: build_artifacts
             docker_run_args: 
-            free_disk_space: True
+            free_disk_space: max
             os: ubuntu
             pagefile_size: 0
             resize_partitions: False
@@ -185,7 +185,7 @@ jobs:
             UPLOAD_PACKAGES: True
             build_workspace_dir: build_artifacts
             docker_run_args: 
-            free_disk_space: True
+            free_disk_space: max
             os: ubuntu
             pagefile_size: 0
             resize_partitions: False
@@ -198,7 +198,7 @@ jobs:
             UPLOAD_PACKAGES: True
             build_workspace_dir: build_artifacts
             docker_run_args: 
-            free_disk_space: True
+            free_disk_space: max
             os: ubuntu
             pagefile_size: 0
             resize_partitions: False
@@ -211,7 +211,7 @@ jobs:
             UPLOAD_PACKAGES: True
             build_workspace_dir: build_artifacts
             docker_run_args: 
-            free_disk_space: True
+            free_disk_space: max
             os: ubuntu
             pagefile_size: 0
             resize_partitions: False
