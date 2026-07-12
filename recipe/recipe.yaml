@@ -41,6 +41,7 @@ source:
     - patches/0014-build-Use-correct-CMake-syntax-to-check-for-variable.patch
     - patches/0015-Avoid-try_run-when-cross-compiling.patch
     - patches/0016-cling-Anchor-the-interpreter-s-clang-driver-on-ROOTS.patch
+    - patches/0017-cmake-Quote-list-valued-cache-variable-in-root-conf.patch
 build:
   number: ${{ build_number }}
   skip:
