@@ -39,6 +39,7 @@ source:
     - patches/0001-Try-relative-libstdc-include-directories.patch
     - patches/0012-Use-resolved-executable-path-for-clang-Driver.patch
     - patches/0013-cling-Anchor-the-interpreter-s-clang-driver-on-ROOTS.patch
+    - patches/0014-cmake-Quote-list-valued-cache-variable-in-root-conf.patch
 build:
   number: ${{ build_number }}
   skip:
