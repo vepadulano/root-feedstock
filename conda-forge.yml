@@ -1,5 +1,5 @@
-azure:
-  free_disk_space: true
+workflow_settings:
+  free_disk_space: max
   store_build_artifacts: true
 bot:
   abi_migration_branches:

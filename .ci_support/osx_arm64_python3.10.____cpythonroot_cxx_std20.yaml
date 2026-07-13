@@ -80,8 +80,6 @@ tbb:
 - '2023'
 tbb_devel:
 - '2023'
-xrootd:
-- '5'
 xxhash:
 - 0.8.3
 zeromq:
