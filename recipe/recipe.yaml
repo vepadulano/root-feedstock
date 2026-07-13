@@ -1,7 +1,7 @@
 context:
   name: root
   tag_name: 6-36-10
-  build_number: 2
+  build_number: 3
   clang_version: 18.1.8
   clang_patches_version: root_63610
   builtin_clang: false
@@ -38,6 +38,8 @@ source:
         - patches/0011-Remove-bad-check-on-SDK-for-std_darwin.MacOSX14.2.sd.patch
     - patches/0001-Try-relative-libstdc-include-directories.patch
     - patches/0012-Use-resolved-executable-path-for-clang-Driver.patch
+    - patches/0013-cling-Anchor-the-interpreter-s-clang-driver-on-ROOTS.patch
+    - patches/0014-cmake-Quote-list-valued-cache-variable-in-root-conf.patch
 build:
   number: ${{ build_number }}
   skip:
@@ -147,7 +149,7 @@ outputs:
         - vdt
         - python
         - numpy
-        - xrootd
+        - libxrootd-devel
         - liblzma-devel
         # FIXME: The generated allDict.cxx.pch is dependent on version of the C++ headers used
         - xxhash
@@ -277,6 +279,11 @@ outputs:
     requirements:
       run_exports:
         - root_cxx_standard ==${{ root_cxx_std }}
+    tests:
+      # Marker package: it only carries the C++ standard as a version pin,
+      # so installing it cleanly is the only thing to check.
+      - script:
+          - exit 0
 
 about:
   license: LGPL-2.1-only
