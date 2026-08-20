@@ -6,7 +6,6 @@ bot:
   - 6.36.x
   - 6.38.x
 build_platform:
-  linux_aarch64: linux_64
   linux_ppc64le: linux_64
 conda_build:
   pkg_format: '2'
